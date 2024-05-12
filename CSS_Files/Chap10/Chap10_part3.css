@@ -1,0 +1,19 @@
+.g{
+    border: 1px solid #ccc;
+    float: left;
+    margin: 5px;
+}
+
+.g:hover{
+    border: 1px solid #777;
+}
+
+.g img{
+    width: 100%;
+    height: auto;
+}
+
+.g1{
+    padding: 15px;
+    text-align: center;
+}

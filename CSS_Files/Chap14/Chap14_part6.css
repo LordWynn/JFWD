@@ -1,0 +1,39 @@
+:root{
+    --blue: rgb(1, 1, 146);
+    --green: rgb(6, 95, 6);
+}
+
+.demo{
+    background-color: var(--green);
+    width: 300px;
+    height: 200px;
+
+}
+
+.demo1{
+    --green: red;
+    background-color: var(--green);
+    width: 300px;
+    height: 200px;
+
+}
+
+p{
+    color: var(--blue);
+}
+
+.div1{
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.div2{
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+    margin-bottom: 10px;
+    padding: 50px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,106 @@
+.di1{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: red;
+    animation-name: demo1;
+    animation-duration: 4s;
+}
+
+@keyframes demo1{
+    from{background-color: red;}
+    to{background-color: green;}
+}
+
+.di2{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: red;
+    animation-name: demo2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; /* eta koibar animate hobe sheta bojhai */
+}
+
+@keyframes demo2{
+    from{background-color: red;}
+    to{background-color: green;}
+}
+
+.di3{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    position: relative;
+    background-color: red;
+    animation-name: demo3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; /* eta koibar animate hobe sheta bojhai */
+    animation-direction: reverse;
+    animation-timing-function: linear; 
+}
+
+@keyframes demo3{
+    0%{ 
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+    50%{
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+    100%{
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.di4{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    position: relative;
+    background-color: red;
+    animation: demo4 4s linear 2s infinite alternate;
+}
+
+@keyframes demo4{
+    0%{ 
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+    50%{
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+    100%{
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}

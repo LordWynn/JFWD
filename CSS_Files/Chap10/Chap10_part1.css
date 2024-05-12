@@ -1,0 +1,39 @@
+a:hover{
+    color: yellow;
+    background-color: brown;
+}
+
+a:active{
+    color: aqua;
+    background-color: blueviolet;
+}
+
+li:first-child{
+    color: brown;
+}
+
+li:last-child{
+    color: blue;
+}
+
+li:nth-child(2n+1){ /*even_2n+1_odd_2n-1*/
+    color: blueviolet;
+}
+
+
+body::before{
+    content: "This is Before Pseudo Elements";
+}
+
+body::after{
+    content: "This is After Pseudo Elements";
+}
+
+p::selection{
+    background-color: brown;
+    color: aqua;
+}
+
+img{
+    opacity: .5;
+}

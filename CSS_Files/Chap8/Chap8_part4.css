@@ -1,0 +1,47 @@
+.TABLE{
+    overflow-x: auto;
+}
+
+#customers{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#customers td, #customers th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers th{
+    height: 40px;
+    background-color: #04aa6d;
+    text-align: left;
+    vertical-align: bottom;
+    color: white;
+}
+
+#customers td{
+    text-align: center;
+}
+
+#customers tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover{
+    background-color: #ddd;
+}
+
+.head1{
+    display: inline;
+}
+
+.head2{
+    display: none;
+}
+
+.a3{
+    display: block;
+}
+

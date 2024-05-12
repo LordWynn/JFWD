@@ -1,0 +1,56 @@
+.parent{
+    background-color: pink;
+
+    position: relative;
+}
+
+.c1{
+    background-color: aqua;
+
+    position: relative;
+    left: 50px;
+}
+
+.c2{
+    background-color: red;
+
+    position: fixed;
+    left: 30px;
+}
+
+.c3{
+    background-color: gray;
+    
+    position: absolute;
+    top: 0px;
+    left: 80px;
+}
+
+
+.c4{
+    background-color: antiquewhite;
+    
+    position: sticky;
+    top: 0px;
+    left: 80px;
+}
+
+.green{
+    height: 400px;
+    width: 600px;
+    background-color: green;
+    position: relative;
+}
+
+.red{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CHAPTER_4</title>
+    <link rel="shortcut icon" href="sample.png" type="image/x-icon">
+</head>
+<body>
+
+    <b> HTML Part 2: Input Type, Input Attribute & Form Attribute </b>   <br><br>
+
+    <form action="#" method="post">
+        <!--
+            action ekhane form ta ke kono database er shathe connect kore
+            method ekhane post hoilo secure ar get hoilo non-secure
+            normally get use hoi, attribute use na korle
+        -->
+        <fieldset>
+            <!--This is a comment, eda ei class e eshe shikhlam-->
+            <legend>Registration Form</legend>
+    
+            <label for="name">Name: </label>
+            <input type="text" id="name" placeholder="Enter your name" autofocus required>     <br><br><!--ekkhane label_for=input_id connect korse-->
+        
+            <label for="emaiL">Email: </label>
+            <input type="email" id="emaiL" placeholder="Enter your mail" required>    <br><br>
+        
+            <label for="pass">Password: </label>
+            <input type="password" id="pass" placeholder="Enter your password" required> <br><br>
+        
+            <label for="cntry">Country: </label>
+            <input list="country" id="cntry" placeholder="Enter your country" required>
+            <datalist id="country">
+                <option value="Bangladesh"></option>
+                <option value="India"></option>
+                <option value="USA"></option>
+            </datalist>                          <br><br>
+    
+            <label>Country Code: </label>
+            <select name="countrycode" id="countrycode">
+                <option value="Select">Select</option>
+                <option value="+880">+880</option>
+                <option value="+91">+91</option>
+                <option value="+1">+1</option>
+            </select>                            
+            
+            <input type="tel" placeholder="Enter your number" required>  <br><br>
+
+            <label>Select your gender: </label>  
+
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">   <br><br>
+
+            <label>Types of device you have: </label> <br>
+            <input type="checkbox" name="phn" name="Phone" id="phn">            
+            <label for="phn">I have a Phone</label>  <br>
+
+            <input type="checkbox" name="laptop" name="Laptop" id="laptop">            
+            <label for="laptop">I have a Laptop</label>  <br>
+
+            <input type="checkbox" name="pc" name="PC" id="pc">            
+            <label for="pc">I have a PC</label>  <br>
+
+            <label>Pick your favorite color: </label>
+            <input type="color">      <br>
+
+            <label>Enter your review: </label>
+            <input type="range"> <br>
+
+            <label>Enter your Date of Birth: </label>
+            <input type="date">  <br><br>
+
+            <label>Enter your appointment time: </label>
+            <input type="time">  <br><br>
+
+            <label for="src">Search somthing: </label>
+            <input type="search" placeholder="Search" id="src"> <br><br>
+
+            <label for="link">Link: </label>
+            <input type="url" placeholder="Enter your Website" id="link"> <br><br>
+
+            <label for="phto">Enter your photo: </label>
+            <input type="file" id="phto">   <br><br>
+
+
+
+
+
+
+
+            <br><br>
+            <textarea name="Ques" id="" cols="30" rows="10" placeholder="Enter your comment"></textarea> <br>
+            <input type="submit">
+            <input type="reset">
+        
+        </fieldset>    
+    </form>
+
+
+</body>
+</html>

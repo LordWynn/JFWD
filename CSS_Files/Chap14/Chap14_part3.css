@@ -1,0 +1,58 @@
+.img1{
+    -webkit-box-reflect: below;
+    margin-bottom: 400px;
+}
+.img2{
+    -webkit-box-reflect: left;
+    margin-bottom: 50px;
+}
+.img3{
+    -webkit-box-reflect: right;
+    margin-bottom: 400px;
+}
+.img4{
+    -webkit-box-reflect: above;
+    margin-bottom: 100px;
+}
+
+
+
+.img5{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+}
+.img6{
+    height: 300px;
+    width: 200px;
+    object-fit: contain;
+}
+.img7{
+    height: 300px;
+    width: 200px;
+    object-fit: fill;
+}
+.img8{
+    height: 300px;
+    width: 200px;
+    object-fit: none;
+}
+.img9{
+    height: 300px;
+    width: 200px;
+    object-fit: scale-down;
+}
+.img9{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+}
+.img10{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    object-position: 80% 100%;
+}
+
+
+

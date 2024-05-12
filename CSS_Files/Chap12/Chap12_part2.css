@@ -1,0 +1,244 @@
+/* .banner1{
+    background-color: gray;
+    width: 100%;
+    height: 300px;
+
+    background-image: url(../../PICS\ &\ VDO\ &\ Ado/border.png) , url(../../PICS\ &\ VDO\ &\ Ado/sample.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: 30%, cover;
+} */
+
+/* Direction - Left to Right */
+.banner2{ 
+    background-color: greenyellow;
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+
+    background-image: linear-gradient(to right, red, yellow);
+}
+
+/* Direction - Diagonal */
+.banner3{
+    background-color: greenyellow;
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+/* Using Angles & Using Multiple Color Stops*/
+.banner4{
+    background-color: greenyellow;
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+
+    background-image: linear-gradient(45deg, red, yellow, green);
+}
+
+/* Using Transparency */
+.banner5{
+    background-color: gray;
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+
+    background-image: linear-gradient(rgba(255, 10, 174, 0), rgba(10, 255, 146, 1))
+}
+
+/* Repeating a linear-gradient */
+.banner6{
+    background-color: gray;
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+
+    background-image: repeating-linear-gradient(red, yellow 10%, green 30%)
+}
+
+/* Radial Gradient - Evenly Spaced Color Stops (this is default) */
+.banner7{
+    background-color: gray;
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+
+    background-image: radial-gradient(red, yellow, green)
+}
+
+/* Radial Gradient - Differently Spaced Color Stops */
+.banner8{
+    background-color: gray;
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+
+    background-image: radial-gradient(red 5%, yellow 15%, green 60%)
+}
+
+/* Set Shape */
+.banner9{
+    background-color: gray;
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+
+    background-image: radial-gradient(circle, red, yellow, green)
+}
+
+/* Different Size Keywords
+The size parameter defines the size of the gradient. It can take four values:
+closest-side */
+.banner10{
+    background-color: gray;
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+
+    background-image: radial-gradient(closest-side at 60% 55%, red, yellow, black)
+}
+
+/* Different Size Keywords
+The size parameter defines the size of the gradient. It can take four values:
+farthest-side */
+.banner11{
+    background-color: gray;
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+
+    background-image: radial-gradient(farthest-side at 60% 55%, red, yellow, black)
+}
+
+/* Different Size Keywords
+The size parameter defines the size of the gradient. It can take four values:
+closest-corner */
+.banner12{
+    background-color: gray;
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+
+    background-image: radial-gradient(closest-corner at 60% 55%, red, yellow, black)
+}
+
+/* Different Size Keywords
+The size parameter defines the size of the gradient. It can take four values:
+farthest-corner */
+.banner13{
+    background-color: gray;
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+
+    background-image: radial-gradient(farthest-corner at 60% 55%, red, yellow, black)
+}
+
+/* Repeating a radial-gradient */
+.banner14{
+    background-color: gray;
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+
+    background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
+
+/* Conic Gradient: Three Colors */
+.banner15{
+    background-color: gray;
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+
+    background-image: conic-gradient(red, yellow, green);
+}
+
+/* Conic Gradient: Five Color */
+.banner16{
+    background-color: gray;
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+
+    background-image: conic-gradient(red, yellow, green, blue, black);
+}
+
+/* Conic Gradient: Three Colors and Degrees */
+.banner17{
+    background-color: gray;
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+
+    background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+}
+
+/* Create Pie Charts */
+.banner18{
+    background-color: gray;
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+
+    background-image: conic-gradient(red, yellow, green, blue, black);
+    border-radius: 50%;
+}
+
+/* Another pie chart with defined degrees for all the colors */
+.banner19{
+    background-color: gray;
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+    border-radius: 50%;
+}
+
+/* Conic Gradient With Specified From Angle */
+.banner20{
+    background-color: gray;
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+
+    background-image: conic-gradient(from 90deg, red, yellow, green);
+    border-radius: 50%;
+}
+
+/* Conic Gradient With Specified Center Position */
+.banner21{
+    background-color: gray;
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+
+    background-image: conic-gradient(at 60% 45%, red, yellow, green);
+    border-radius: 50%;
+}
+
+/* Repeating a Conic Gradient */
+.banner22{
+    background-color: gray;
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+
+    background-image: repeating-conic-gradient(red 10%, yellow 20%);
+    border-radius: 50%;
+}
+
+/* Repeating conic gradient with defined color-starts and color-stops */
+.banner23{
+    background-color: gray;
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+
+    background-image: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg);
+    border-radius: 50%;
+}

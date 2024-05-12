@@ -1,0 +1,138 @@
+/* simplest use */
+h1:nth-child(1){
+    text-shadow: 2px 2px;
+}
+
+h1:nth-child(2){
+    text-shadow: -2px -2px;
+}
+
+/* add a color to the shadow: */
+h1:nth-child(3){
+    text-shadow: 2px 2px red;
+}
+
+/* add a blur effect to the shadow: */
+h1:nth-child(4){
+    text-shadow: 2px 2px 5px red;
+}
+
+/* white text with black shadow: */
+h1:nth-child(5){
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* red neon glow shadow: */
+h1:nth-child(6){
+    text-shadow: 0px 0px 3px #ff0000;
+}
+
+/* red and blue neon glow shadow: */
+h1:nth-child(7){
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+/* white text with black, blue, and darkblue shadow: */
+h1:nth-child(8){
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+/* plain border around some text (without shadows): */
+h1:nth-child(9){
+    color: coral;
+    text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;
+}
+
+/* a Horizontal and a Vertical Shadow 
+& Specify a Color for the Shadow
+& a Blur Effect to the Shadow */
+.box1{
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: brown;
+    box-shadow: 0px 0px 15px green;
+}
+
+/* Multiple Shadows */
+.box2{
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: brown;
+    box-shadow: 0px 0px 15px green, 10px 10px 20px blue;
+}
+
+/* Set the inset Parameter */
+.box3{
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: brown;
+    box-shadow: 10px 10px 5px blue inset;
+}
+
+/* Cards */
+
+.card{
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.head1{
+    background-color: aqua;
+    color: brown;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.text{
+    padding: 10px;
+    font-size: 20px;
+}
+
+#card{
+    width: 250px;
+    box-shadow: 0 0 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#head1 img{
+    width: 100%;
+    height: auto;
+}
+
+#text{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.para1{
+    width: 200px;
+    border: 2px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+
+.para2{
+    width: 200px;
+    width: 200px;
+    border: 2px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+.head11{
+    writing-mode: horizontal-tb;
+}
+
+.head22{
+    writing-mode: vertical-rl;
+}

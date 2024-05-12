@@ -1,0 +1,42 @@
+/* Group Selector */
+
+#para1{
+    color: rgba(25, 94, 19, 0.7);
+}
+
+h1{
+    color: #ff1616;
+    opacity: 0.5;
+}
+
+h2{
+    color: hsla(14, 97%, 45%, .5);
+}
+
+/* eta universal
+*{
+    background-color: aquamarine;
+    opacity: 1;
+}
+*/
+/* Background picture
+body{
+    background-image: url(../HTML_Files/sample.png);
+}
+*/
+
+
+/*
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.YlKimVo94OkaZDZCzPIDpAHaFh?rs=1&pid=ImgDetMain);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+}
+
+ei puro body er background er kaj niche shortcut e kora holo
+*/
+
+body{
+    background: url(https://th.bing.com/th/id/OIP.YlKimVo94OkaZDZCzPIDpAHaFh?rs=1&pid=ImgDetMain) no-repeat right top scroll;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CHAPTER_2</title>
+    <link rel="shortcut icon" href="sample.png" type="image/x-icon">
+</head>
+<body>
+    <p><b> HTML Part5: Iframe & HTML To JavaScript Link </b> <hr> </p>
+
+    # IFRAME <br><br>
+    <iframe src="Chap1.html" frameborder="1" height="300" width="400"></iframe>
+
+    <br>
+
+    <iframe src="Chap1.html" frameborder="1" height="315" width="560" name="tufu"></iframe> 
+     
+    <br>
+
+    <a href="https://www.youtube.com/embed/Z1QuBXVrUHU?si=XnFY6U1hzcn8Nuxr" target="tufu">Click to play Sound</a>
+
+
+    # Link with JavaScript <br><br>
+
+    Way_1--- Inline JavaScript   <br>
+    <button type="button" onclick="document.getElementById('sd').innerHTML = Date();">
+        Show Date
+    </button>
+    <p id="sd"></p>
+
+    Way_2--- Internal JavaScript   <br>
+    <button type="button" onclick="showdate()">
+        Show Date
+    </button>
+    <p id="sdate"></p>
+
+    <script>
+        function showdate(){
+            document.getElementById('sdate').innerHTML = Date();
+        }
+    </script>
+
+    <br>
+
+    Way_3--- External JavaScript  <br>
+    <button type="button" onclick="showdate()">
+        Show Date
+    </button>
+    <p id="shdate"></p>
+
+    <script src="../JS_Files/Chap2_part5.js"></script>
+
+
+
+
+</body>
+</html>

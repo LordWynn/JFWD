@@ -1,0 +1,26 @@
+#pa0{
+    font-size: 450%;
+    border: 2px solid blue;
+    background-color: bisque;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    padding-left: 60px;
+    padding-right: 40px;
+    width: 1000px;
+    max-width: 500px;
+    height: 2500px;
+}
+
+#pa1{
+    font-size: 450%;
+    border: 2px solid blue;
+    background-color: blueviolet;
+    padding: 20%;
+}
+
+#pa2{
+    font-size: 450%;
+    border: 2px solid blue;
+    background-color: lawngreen;
+    padding: 40px 80px 120px 160px;
+}

@@ -1,0 +1,82 @@
+div{
+    margin-bottom: 30px;
+}
+
+.div1{
+    width: 400px;
+    height: 300px;
+    background-color: aqua;
+    border-radius: 25px;
+}
+
+.div2{
+    width: 400px;
+    height: 300px;
+    border: 5px solid salmon;
+    border-radius: 25px;
+}
+
+.div3{
+    width: 400px;
+    height: 300px;
+    background-image: url(../../PICS\ &\ VDO\ &\ Ado/sample.png);
+    border-radius: 25px;
+}
+
+.div4{
+    width: 400px;
+    height: 300px;
+    background-color: green;
+    border-radius: 15px 50px 30px 5px;
+}
+
+.div5{
+    width: 400px;
+    height: 300px;
+    background-color: greenyellow;
+    border-radius: 15px 50px 30px;
+}
+
+.div6{
+    width: 400px;
+    height: 300px;
+    background-color: goldenrod;
+    border-radius: 15px 50px;
+}
+
+.div7{
+    width: 400px;
+    height: 300px;
+    background-color: blueviolet;
+    border-radius: 50px / 15px;
+}
+
+.div8{
+    width: 400px;
+    height: 300px;
+    background-color: blueviolet;
+    border-radius: 15px / 50px;
+}
+
+.div9{
+    width: 400px;
+    height: 300px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+
+p{
+    border: 10px solid green;
+    padding: 10px;
+    background-color:antiquewhite ;
+    /* 
+    border-image-source: url(../../PICS\ &\ VDO\ &\ Ado/border.png);
+    border-image-slice: 30;
+    border-image-width: 12px;
+    border-image-outset: 5px;
+    border-image-repeat: stretch; 
+    
+    For short hand--
+    */
+    border-image: url("../../PICS\ &\ VDO\ &\ Ado/border.png") 30 / 12px / 5px stretch ;
+}

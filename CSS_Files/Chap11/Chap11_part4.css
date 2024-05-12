@@ -1,0 +1,36 @@
+p{
+    color: aqua;
+}
+
+p{
+    color: green;
+}
+
+p.para{
+    color: blue !important;
+}
+
+p#para{
+    color: brown !important;
+}
+
+/* .p1{
+    background-color: aqua;
+    color: blue !important;
+    margin: 0 auto;
+    width: calc(100% - 200px);
+} */
+
+/* .p1{
+    background-color: aqua;
+    color: blue !important;
+    margin: 0 auto;
+    width: max(70%, 700px) ;
+} */
+
+.p1{
+    background-color: aqua;
+    color: blue !important;
+    margin: 0 auto;
+    width: min(70%, 700px) ;
+}

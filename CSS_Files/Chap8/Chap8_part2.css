@@ -1,0 +1,28 @@
+#p1{ /* ekhane 1st bar e font family HTML er shathe connect kore 
+      font use kora hoyeche */
+    font-family: "Lato", sans-serif;
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+#p2{ /* ekhane 2nd bar e font family CSS er shathe connect kore 
+    font use kora hoyeche */
+    font-family: "Lato", sans-serif;
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+    @import url('https://fonts.googleapis.com/css?family=Hind+Siliguri');
+#p3{ /* ekhane 3rd bar e font family CSS er shathe connect kore 
+    font use kora hoyeche */
+    font-family: 'Hind Siliguri', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+

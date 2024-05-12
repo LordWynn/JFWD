@@ -1,0 +1,275 @@
+body{
+    text-align: center;
+}
+
+
+.tooltip1{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted red;
+}
+
+.tooltip1 .tooltip_content1{
+    visibility: hidden;
+    width: 180px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+}
+
+.tooltip1:hover .tooltip_content1{
+    visibility: visible;
+}
+
+
+.tooltip2{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted red;
+}
+
+.tooltip2 .tooltip_content2{
+    visibility: hidden;
+    width: 180px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+}
+
+.tooltip2:hover .tooltip_content2{
+    visibility: visible;
+}
+
+
+.tooltip3{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted red;
+}
+
+.tooltip3 .tooltip_content3{
+    visibility: hidden;
+    width: 180px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -90px;
+}
+
+.tooltip3:hover .tooltip_content3{
+    visibility: visible;
+}
+
+
+.tooltip4{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted red;
+}
+
+.tooltip4 .tooltip_content4{
+    visibility: hidden;
+    width: 180px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -90px;
+}
+
+.tooltip4:hover .tooltip_content4{
+    visibility: visible;
+}
+
+
+/* animation */
+.tooltip5{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted red;
+}
+
+.tooltip5 .tooltip_content5{
+    visibility: hidden;
+    width: 180px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -90px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip5:hover .tooltip_content5{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.i1{
+    border-radius: 50%;
+}
+
+.i2{
+    border: 1px solid grey;
+    padding: 10px;
+
+    /* for responsive */
+    width: 1000px;
+    height: 300px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.container{
+    position: relative;
+}
+
+.d11{
+    color: blue;
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    left: 0;
+}
+.d12{
+    color: blue;
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    right: 0;
+}
+.d13{
+    color: blue;
+    position: absolute;
+    padding: 10px;
+    bottom: 0;
+    right: 0;
+}
+.d14{
+    color: blue;
+    position: absolute;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+}
+.d15{
+    color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.i3{
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+
+.i4{
+    height: 300px;
+    width: 300px;
+    filter: blur(4px);
+}
+.i5{
+    height: 300px;
+    width: 300px;
+    filter: brightness(400%);
+}
+.i6{
+    height: 300px;
+    width: 300px;
+    filter: contrast(200%);
+}
+.i7{
+    height: 300px;
+    width: 300px;
+    filter: grayscale(100%);
+}
+.i8{
+    height: 300px;
+    width: 300px;
+    filter: hue-rotate(180deg);
+}
+.i9{
+    height: 300px;
+    width: 300px;
+    filter: invert(100%);
+}
+.i10{
+    height: 300px;
+    width: 300px;
+    filter: opacity(50%);
+}
+.i11{
+    height: 300px;
+    width: 300px;
+    filter: saturate(200%);
+}
+.i12{
+    height: 300px;
+    width: 300px;
+    filter: sepia(100%);
+}
+
+
+.ct1{
+    position: relative;
+    width: 50%;
+}
+.pic1{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: brown;
+}
+
+.ct2{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: aquamarine;
+}
+
+.ct1:hover .overlay{
+    opacity: 1;
+}

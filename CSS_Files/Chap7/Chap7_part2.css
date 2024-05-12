@@ -1,0 +1,30 @@
+/* This is a comment in CSS */
+/*
+selector{
+    proparty: value;
+    }
+
+this is the format of css.......
+*/
+
+
+/* Universal Selector-- eta off rakhtesi cause nicher gula show koranor jonno 
+*{
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+*/
+/* ID Selector */
+#para1{
+    color: brown;
+}
+/* Class Selector */
+.para2{
+    background-color: blueviolet;
+}
+/* Group Selector */
+h1, h2, h3{
+    color: blue;
+    text-align: center;
+}

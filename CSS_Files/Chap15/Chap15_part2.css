@@ -1,0 +1,56 @@
+
+.container div{
+    width: 120px;
+    height: 120px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 7rem;
+}
+
+.i1{
+    background-color: rgb(231, 79, 79);
+}
+.i2{
+    background-color: yellow;
+}
+.i3{
+    background-color: rgb(41, 241, 41);
+}
+.i4{
+    background-color: rgb(55, 55, 255);
+}
+
+
+.container{
+    height: 500px;
+    display: flex;
+
+    /* Step-1
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; */
+
+
+    /* Step-2 
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 1em; */
+
+}
+
+
+.i1{
+    /* flex-grow: 1;*/     /* 1 Number e eta korsi, then--- */ 
+    flex: 1;               /* 5 */
+    align-self: center;    /* 6 */
+}
+.i2{
+    flex-shrink: 5;        /* 2 */
+}
+.i3{
+    flex-shrink: 0;        /* 3 */
+    order: -1;             /* 7 */
+}
+.i4{
+    flex-basis: 300px;     /* 4 */
+}

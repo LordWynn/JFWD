@@ -1,0 +1,42 @@
+div{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+    background-color: saddlebrown;
+    transition: width 2s, height 2s, transform 2s;
+    transition-delay: 1s;
+}
+
+.d1{
+    transition-property: width;
+    transition-duration: 2s;
+}
+.d2{
+    transition: width 2s, height 4s;
+}
+.d3{
+    transition-timing-function: linear;
+}
+.d4{
+    transition-timing-function: ease;
+}
+.d5{
+    transition-timing-function: ease-in;
+}
+.d6{
+    transition-timing-function: ease-out;
+}
+.d7{
+    transition-timing-function: ease-in-out;
+}
+.d8{
+    transition-timing-function: cubic-bezier(0.13, 0.79, 0.9, .32);
+}
+
+
+div:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(45deg);
+}
+
